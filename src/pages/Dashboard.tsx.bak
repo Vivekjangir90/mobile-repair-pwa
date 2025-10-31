@@ -4,7 +4,7 @@ import { collection, query, where, getDocs, orderBy, limit } from 'firebase/fire
 import { RepairJob } from '../types/repairJob';
 import { Customer } from '../types/customer';
 import { Sale } from '../types/sale';
-import StatusIndicator from '../components/StatusIndicator.tsx';
+import StatusIndicator from '../components/StatusIndicator';
 
 // Component to display a single metric (reusable)
 const StatCard: React.FC<{ title: string; value: string | number; color: string }> = ({ title, value, color }) => (
