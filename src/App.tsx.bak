@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext.tsx';
+import { AuthProvider, useAuth } from './context/AuthContext.ts';
 import Dashboard from './pages/Dashboard';
 import RepairJobForm from './pages/RepairJobForm'; // (From previous response)
 import BillingPage from './pages/BillingPage';     // (From previous response)
