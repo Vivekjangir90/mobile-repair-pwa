@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css'; // Tailwind CSS ko import karein
-import AppRoutes from './app'; // App.tsx file se import karein
+import AppRoutes from './App.tsx'; // App.tsx file se import karein
 
 // Yeh Service Worker registration PWA ke liye zaroori hai
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'; 
