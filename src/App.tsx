@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext.tsx';
-import Dashboard from './pages/Dashboard';
-import RepairJobForm from './pages/RepairJobForm'; // (From previous response)
-import BillingPage from './pages/BillingPage';     // (From previous response)
-import InventoryPage from './pages/InventoryPage';
-import CustomerDatabase from './pages/CustomerDatabase';
-import Login from './pages/Login'; // You would create a Login page component
-import NavBar from './components/NavBar'; // A simple navigation bar
+import Dashboard from './pages/Dashboard.tsx';
+import RepairJobForm from './pages/RepairJobForm.tsx'; // (From previous response)
+import BillingPage from './pages/BillingPage.tsx';     // (From previous response)
+import InventoryPage from './pages/InventoryPage.tsx';
+import CustomerDatabase from './pages/CustomerDatabase.tsx';
+import Login from './pages/Login.tsx'; // You would create a Login page component
+import NavBar from './components/NavBar.tsx'; // A simple navigation bar
 
 // A component to protect routes
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
